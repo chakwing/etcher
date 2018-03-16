@@ -84,7 +84,7 @@ describe('ImageStream: Metadata ZIP', function () {
     })
 
     it('should read the manifest checksumType property', function () {
-      return testMetadataProperty(archive, 'checksumType', 'md5')
+      return testMetadataProperty(archive, 'checksumType', 'sha512')
     })
 
     it('should read the manifest checksum property', function () {
